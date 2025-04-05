@@ -36,13 +36,13 @@ namespace Hola_Mundo
             ////myConst = 15; Error
             //Console.WriteLine(MYCONST);
 
-            ////Concatenacion de variables
+            //Concatenacion Clasica
             //Console.WriteLine("Pedro, " + myString);
 
-            ////
+            //Interpolación con índices (formato antiguo)
             //Console.WriteLine("Este es el valor del entero {0} y este del cadena de caracter {1}",myInt,myString);
 
-            ////
+            //Interpolación moderna con $
             //Console.WriteLine($"Este es el valor del entero {myInt} y este del cadena de caracter {myString}");
 
             //Suma
@@ -64,9 +64,6 @@ namespace Hola_Mundo
             Console.WriteLine("El número 1 es: " + numero1);
             Console.WriteLine("El número 2 es: " + numero2);
             Console.WriteLine("El resultado de la suma es: " + resultado);
-
-
-
 
             Console.ReadKey();
         }
